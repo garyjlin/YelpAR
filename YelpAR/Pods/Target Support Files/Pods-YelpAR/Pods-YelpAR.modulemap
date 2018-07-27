@@ -1,0 +1,6 @@
+module Pods_YelpAR {
+  umbrella header "Pods-YelpAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

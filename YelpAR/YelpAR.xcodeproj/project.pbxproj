@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD532261210A9E1E00D91C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD532260210A9E1E00D91C37 /* AppDelegate.swift */; };
+		AD532263210A9E1E00D91C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD532262210A9E1E00D91C37 /* ViewController.swift */; };
+		AD532266210A9E1E00D91C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD532264210A9E1E00D91C37 /* Main.storyboard */; };
+		AD532268210A9E1E00D91C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD532267210A9E1E00D91C37 /* Assets.xcassets */; };
+		AD53226B210A9E1E00D91C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD532269210A9E1E00D91C37 /* LaunchScreen.storyboard */; };
+		C8666DB47D77129E8B7DFBA3 /* libPods-YelpAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E47F749529ACC646EADAE503 /* libPods-YelpAR.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26DF2492076246C163196377 /* Pods-YelpAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YelpAR/Pods-YelpAR.debug.xcconfig"; sourceTree = "<group>"; };
+		AD53225D210A9E1E00D91C37 /* YelpAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD532260210A9E1E00D91C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD532262210A9E1E00D91C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD532265210A9E1E00D91C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD532267210A9E1E00D91C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD53226A210A9E1E00D91C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD53226C210A9E1E00D91C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D163542950729953F83AD095 /* Pods-YelpAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-YelpAR/Pods-YelpAR.release.xcconfig"; sourceTree = "<group>"; };
+		E47F749529ACC646EADAE503 /* libPods-YelpAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YelpAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD53225A210A9E1E00D91C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8666DB47D77129E8B7DFBA3 /* libPods-YelpAR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EBE93DDFBDCB551DBA40ED0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26DF2492076246C163196377 /* Pods-YelpAR.debug.xcconfig */,
+				D163542950729953F83AD095 /* Pods-YelpAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD532254210A9E1E00D91C37 = {
+			isa = PBXGroup;
+			children = (
+				AD53225F210A9E1E00D91C37 /* YelpAR */,
+				AD53225E210A9E1E00D91C37 /* Products */,
+				2EBE93DDFBDCB551DBA40ED0 /* Pods */,
+				F7E5B02185B589495EB15A72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD53225E210A9E1E00D91C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD53225D210A9E1E00D91C37 /* YelpAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD53225F210A9E1E00D91C37 /* YelpAR */ = {
+			isa = PBXGroup;
+			children = (
+				AD532260210A9E1E00D91C37 /* AppDelegate.swift */,
+				AD532262210A9E1E00D91C37 /* ViewController.swift */,
+				AD532264210A9E1E00D91C37 /* Main.storyboard */,
+				AD532267210A9E1E00D91C37 /* Assets.xcassets */,
+				AD532269210A9E1E00D91C37 /* LaunchScreen.storyboard */,
+				AD53226C210A9E1E00D91C37 /* Info.plist */,
+			);
+			path = YelpAR;
+			sourceTree = "<group>";
+		};
+		F7E5B02185B589495EB15A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47F749529ACC646EADAE503 /* libPods-YelpAR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD53225C210A9E1E00D91C37 /* YelpAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53226F210A9E1E00D91C37 /* Build configuration list for PBXNativeTarget "YelpAR" */;
+			buildPhases = (
+				EBF065D7C2B460A88F21E976 /* [CP] Check Pods Manifest.lock */,
+				AD532259210A9E1E00D91C37 /* Sources */,
+				AD53225A210A9E1E00D91C37 /* Frameworks */,
+				AD53225B210A9E1E00D91C37 /* Resources */,
+				357DF784F2BCB71D82439582 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpAR;
+			productName = YelpAR;
+			productReference = AD53225D210A9E1E00D91C37 /* YelpAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD532255210A9E1E00D91C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gary Lin";
+				TargetAttributes = {
+					AD53225C210A9E1E00D91C37 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD532258210A9E1E00D91C37 /* Build configuration list for PBXProject "YelpAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD532254210A9E1E00D91C37;
+			productRefGroup = AD53225E210A9E1E00D91C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD53225C210A9E1E00D91C37 /* YelpAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD53225B210A9E1E00D91C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53226B210A9E1E00D91C37 /* LaunchScreen.storyboard in Resources */,
+				AD532268210A9E1E00D91C37 /* Assets.xcassets in Resources */,
+				AD532266210A9E1E00D91C37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		357DF784F2BCB71D82439582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YelpAR/Pods-YelpAR-resources.sh",
+				"${PODS_ROOT}/CDYelpFusionKit/Resources/Images.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YelpAR/Pods-YelpAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF065D7C2B460A88F21E976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelpAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD532259210A9E1E00D91C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD532263210A9E1E00D91C37 /* ViewController.swift in Sources */,
+				AD532261210A9E1E00D91C37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD532264210A9E1E00D91C37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD532265210A9E1E00D91C37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD532269210A9E1E00D91C37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD53226A210A9E1E00D91C37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD53226D210A9E1E00D91C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD53226E210A9E1E00D91C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD532270210A9E1E00D91C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DF2492076246C163196377 /* Pods-YelpAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34ZM3EDY77;
+				INFOPLIST_FILE = YelpAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.garylin.yelpar.YelpAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD532271210A9E1E00D91C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D163542950729953F83AD095 /* Pods-YelpAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34ZM3EDY77;
+				INFOPLIST_FILE = YelpAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.garylin.yelpar.YelpAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD532258210A9E1E00D91C37 /* Build configuration list for PBXProject "YelpAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53226D210A9E1E00D91C37 /* Debug */,
+				AD53226E210A9E1E00D91C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53226F210A9E1E00D91C37 /* Build configuration list for PBXNativeTarget "YelpAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD532270210A9E1E00D91C37 /* Debug */,
+				AD532271210A9E1E00D91C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD532255210A9E1E00D91C37 /* Project object */;
+}
