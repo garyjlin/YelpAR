@@ -99,6 +99,7 @@
 				AD532259210A9E1E00D91C37 /* Sources */,
 				AD53225A210A9E1E00D91C37 /* Frameworks */,
 				AD53225B210A9E1E00D91C37 /* Resources */,
+				357DF784F2BCB71D82439582 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,6 +158,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		357DF784F2BCB71D82439582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YelpAR/Pods-YelpAR-resources.sh",
+				"${PODS_ROOT}/CDYelpFusionKit/Resources/Images.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YelpAR/Pods-YelpAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EBF065D7C2B460A88F21E976 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

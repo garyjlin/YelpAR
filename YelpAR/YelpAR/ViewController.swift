@@ -8,16 +8,19 @@
 
 import UIKit
 import ARKit
+import CDYelpFusionKit
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var sceneView: ARSCNView!
+    let yelpAPIClient = CDYelpAPIClient(apiKey: "whL7UaIen8TNl5V_EkEqcDmNzgFsFOBZyn8eDdZpyLQpiMQ9rEv986VNgMtaDy5N6zShdIQHQ8yXdOVnCE5myyBgaw1T4wpcRZg_rclPFvOLoddvd3SaA4WFnKFaW3Yx")
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         addBox()
         addTapGestureToSceneView()
+        searchBusinesses()
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,6 +67,32 @@ class ViewController: UIViewController {
     func addTapGestureToSceneView() {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.didTap(withGestureRecognizer:)))
         sceneView.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    func searchBusinesses() {
+        yelpAPIClient.searchBusinesses(byTerm: "Food",
+                                       location: "San Francisco",
+                                       latitude: nil,
+                                       longitude: nil,
+                                       radius: 10000,
+                                       categories: [.activeLife, .food],
+                                       locale: .english_unitedStates,
+                                       limit: 5,
+                                       offset: 0,
+                                       sortBy: .rating,
+                                       priceTiers: [.oneDollarSign, .twoDollarSigns],
+                                       openNow: true,
+                                       openAt: nil,
+                                       attributes: nil) { (response) in
+                                        
+                                        if let response = response,
+                                            let businesses = response.businesses,
+                                            businesses.count > 0 {
+                                            print(businesses)
+                                            let name = businesses[0].name
+                                            print(name)
+                                        }
+        }
     }
 }
 

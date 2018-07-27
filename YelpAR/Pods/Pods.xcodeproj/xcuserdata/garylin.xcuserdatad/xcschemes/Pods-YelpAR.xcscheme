@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E5E084777681C5AA6B441A11A8705095"
+               BlueprintIdentifier = "AD125B36C436CC7E9D5A2D48D247483C"
                BlueprintName = "Pods-YelpAR"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-YelpAR.a">
